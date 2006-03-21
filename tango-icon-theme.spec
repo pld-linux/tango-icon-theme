@@ -14,17 +14,18 @@ Group:		Applications
 Source0:	http://tango-project.org/releases/%{name}-%{version}.tar.gz
 # Source0-md5:	78cee771a96eb1615df92350048a77f8
 URL:		http://tango-project.org/Tango_Desktop_Project
-BuildRequires:	icon-naming-utils
 BuildRequires:	ImageMagick-devel
-#Requires:	-
+BuildRequires:	icon-naming-utils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		tangodir	%{_datadir}/icons/Tango
+%define		tangodir	%{_iconsdir}/Tango
 
 %description
+freedesktop.org standard compliant icons.
 
 %description -l pl
+Ikony implementuj±ce standard freedesktop.org.
 
 %prep
 %setup -q
