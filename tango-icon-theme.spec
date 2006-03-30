@@ -14,8 +14,10 @@ Group:		Applications
 Source0:	http://tango-project.org/releases/%{name}-%{version}.tar.gz
 # Source0-md5:	78cee771a96eb1615df92350048a77f8
 URL:		http://tango-project.org/Tango_Desktop_Project
+BuildRequires:	ImageMagick-coder-png
 BuildRequires:	ImageMagick-devel
 BuildRequires:	icon-naming-utils
+BuildRequires:	pkgconfig
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -93,27 +95,27 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{tangodir}/22x22/status
 %{tangodir}/22x22/status/*.png
 
-#%dir %{tangodir}/24x24
-#%dir %{tangodir}/24x24/actions
-#%{tangodir}/24x24/actions/*.png
+%dir %{tangodir}/24x24
+%dir %{tangodir}/24x24/actions
+%{tangodir}/24x24/actions/*.png
 #%dir %{tangodir}/24x24/animations
 #%{tangodir}/24x24/animations/*.png
-#%dir %{tangodir}/24x24/apps
-#%{tangodir}/24x24/apps/*.png
-#%dir %{tangodir}/24x24/categories
-#%{tangodir}/24x24/categories/*.png
-#%dir %{tangodir}/24x24/devices
-#%{tangodir}/24x24/devices/*.png
-#%dir %{tangodir}/24x24/emblems
-#%{tangodir}/24x24/emblems/*.png
-#%dir %{tangodir}/24x24/emotes
-#%{tangodir}/24x24/emotes/*.png
-#%dir %{tangodir}/24x24/mimetypes
-#%{tangodir}/24x24/mimetypes/*.png
-#%dir %{tangodir}/24x24/places
-#%{tangodir}/24x24/places/*.png
-#%dir %{tangodir}/24x24/status
-#%{tangodir}/24x24/status/*.png
+%dir %{tangodir}/24x24/apps
+%{tangodir}/24x24/apps/*.png
+%dir %{tangodir}/24x24/categories
+%{tangodir}/24x24/categories/*.png
+%dir %{tangodir}/24x24/devices
+%{tangodir}/24x24/devices/*.png
+%dir %{tangodir}/24x24/emblems
+%{tangodir}/24x24/emblems/*.png
+%dir %{tangodir}/24x24/emotes
+%{tangodir}/24x24/emotes/*.png
+%dir %{tangodir}/24x24/mimetypes
+%{tangodir}/24x24/mimetypes/*.png
+%dir %{tangodir}/24x24/places
+%{tangodir}/24x24/places/*.png
+%dir %{tangodir}/24x24/status
+%{tangodir}/24x24/status/*.png
 
 %dir %{tangodir}/scalable
 %dir %{tangodir}/scalable/actions
