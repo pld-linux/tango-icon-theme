@@ -7,16 +7,16 @@
 Summary:	freedesktop.org standard compliant icons
 Summary(pl):	Ikony implementuj±ce standard freedesktop.org
 Name:		tango-icon-theme
-Version:	0.7.1
+Version:	0.7.2
 Release:	0.1
 License:	Creative Commons License (see COPYING)
 Group:		Themes
 Source0:	http://tango-project.org/releases/%{name}-%{version}.tar.gz
-# Source0-md5:	78cee771a96eb1615df92350048a77f8
+# Source0-md5:	eace48f8340a95d7134632bad6287100
 URL:		http://tango-project.org/Tango_Desktop_Project
 BuildRequires:	ImageMagick-coder-png
 BuildRequires:	ImageMagick-devel
-BuildRequires:	icon-naming-utils
+BuildRequires:	icon-naming-utils >= 0.7.2
 BuildRequires:	pkgconfig
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
