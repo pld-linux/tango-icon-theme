@@ -5,7 +5,7 @@
 # - add license
 #
 Summary:	freedesktop.org standard compliant icons
-Summary(pl):	Ikony implementuj±ce standard freedesktop.org
+Summary(pl.UTF-8):   Ikony implementujÄ…ce standard freedesktop.org
 Name:		tango-icon-theme
 Version:	0.7.2
 Release:	0.1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 freedesktop.org standard compliant icons.
 
-%description -l pl
-Ikony implementuj±ce standard freedesktop.org.
+%description -l pl.UTF-8
+Ikony implementujÄ…ce standard freedesktop.org.
 
 %prep
 %setup -q
