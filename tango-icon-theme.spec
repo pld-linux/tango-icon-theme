@@ -1,22 +1,20 @@
 #
 # TODO:
 # - better summary and descriptions
-# - check why 24x24 and scalable icon sets don't build correctly
-# - add license
 #
 Summary:	freedesktop.org standard compliant icons
 Summary(pl.UTF-8):	Ikony implementujące standard freedesktop.org
 Name:		tango-icon-theme
-Version:	0.7.2
-Release:	0.1
+Version:	0.8.0
+Release:	1
 License:	Creative Commons License (see COPYING)
 Group:		Themes
-Source0:	http://tango-project.org/releases/%{name}-%{version}.tar.gz
-# Source0-md5:	eace48f8340a95d7134632bad6287100
+Source0:	http://tango-project.org/releases/%{name}-%{version}.tar.bz2
+# Source0-md5:	0bb6a808b514a530adb6fe54e9e3b004
 URL:		http://tango-project.org/Tango_Desktop_Project
 BuildRequires:	ImageMagick-coder-png
 BuildRequires:	ImageMagick-devel
-BuildRequires:	icon-naming-utils >= 0.7.2
+BuildRequires:	icon-naming-utils >= 0.8.2
 BuildRequires:	pkgconfig
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
