@@ -16,7 +16,9 @@ BuildRequires:	ImageMagick-coder-png
 BuildRequires:	ImageMagick-devel
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake
+BuildRequires:	gettext-devel
 BuildRequires:	icon-naming-utils >= 0.8.2
+BuildRequires:	intltool
 BuildRequires:	pkgconfig
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
