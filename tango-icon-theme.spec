@@ -17,7 +17,7 @@ BuildRequires:	ImageMagick-coder-png
 BuildRequires:	ImageMagick-devel
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	icon-naming-utils >= 0.8.90
 BuildRequires:	intltool
 BuildRequires:	pkgconfig
